@@ -1,15 +1,18 @@
 {
     // Workbench settings
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
     "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.startupEditor": "none",
 
-    // Editor customisation
-    "editor.fontFamily": "Fira Code", // https://github.com/tonsky/FiraCode/releases
-    "editor.tabSize": 4,
+    // Editor global settings
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.inlineSuggest.suppressSuggestions": true,
 
     // Editor formatting setting
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.formatOnPaste": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
 
@@ -17,9 +20,37 @@
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "all",
     "prettier.arrowParens": "always",
-    "prettier.printWidth": 80,
     "prettier.useTabs": false,
     "prettier.semi": false,
+
+    // Assistant settings
+    "codium.editorButton": false,
+
+    // Markdown settings
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+
+    // Discord Rich presence settings
+    "vscord.app.name": "Visual Studio Code",
+    "vscord.status.state.text.noWorkspaceFound": "❌ No workspace",
+    "vscord.status.idle.timeout": 800,
+    "vscord.status.problems.text": "",
+    "vscord.status.showElapsedTime": false,
+    "vscord.status.details.text.debugging": "🤖​ {file_name}{file_extension}",
+    "vscord.status.details.text.editing": "📂 {workspace}",
+    "vscord.status.details.text.idle": "AFK",
+    "vscord.status.details.text.notInFile": "Not in a file...",
+    "vscord.status.details.text.viewing": "📂 {workspace}",
+    "vscord.status.state.text.debugging": "🤖 : {workspace}",
+    "vscord.status.state.text.editing": "✏️ {file_name}{file_extension} - {current_line}:{current_column}",
+    "vscord.status.state.text.viewing": "👁️‍🗨️ {file_name}{file_extension}",
+    "vscord.status.image.large.debugging.text": "🤖 Debugging a {LANG} file",
+    "vscord.status.image.large.editing.text": "✏️ Editing a {LANG} file",
+    "vscord.status.image.large.idle.text": "AFK",
+    "vscord.status.image.large.viewing.text": "👁️‍🗨️ Viewing a {LANG} file",
+    "vscord.status.image.small.idle.text": "zZz 💤​",
+    "vscord.status.image.small.notInFile.text": "Snoozin... 😴",
+    "vscord.status.buttons.button1.git.idle.label": "View Repository 👀​",
+    "vscord.status.buttons.button1.git.inactive.label": "View Repository 👀​",
 
     // Git settings
     "git.autofetch": true,
@@ -46,8 +77,11 @@
         "source.fixAll.eslint": "explicit"
     },
 
-    // Files and folder exlude
+    // Files and folder to exlude from explorer
     "files.exclude": {
-        "**/.expo": true
+        "**/.expo": true,
+        "**/.venv": true,
+        "**/node_modules": true,
+        "**/__pycache__": true
     }
 }
