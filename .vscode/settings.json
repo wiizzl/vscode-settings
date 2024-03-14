@@ -8,6 +8,7 @@
     "workbench.editor.limit.enabled": true,
 
     "editor.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "editor.fontLigatures": true,
     "editor.fontSize": 13,
     "editor.tabSize": 4,
@@ -29,6 +30,10 @@
 
     "markdown.extension.preview.autoShowPreviewToSide": true,
 
+    "emojisense.languages": {
+        "*": true
+    },
+
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.ignoreRebaseWarning": true,
@@ -38,6 +43,11 @@
 
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
+    "explorer.compactFolders": false,
+
+    "editor.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "on",
 
     "typescript.updateImportsOnFileMove.enabled": "always",
     "javascript.updateImportsOnFileMove.enabled": "always",
@@ -51,6 +61,15 @@
         "**/.expo": true,
         "**/.venv": true,
         "**/node_modules": true,
-        "**/__pycache__": true
+        "**/.yarn": true,
+        "**/__pycache__": true,
+        "**/.next": true,
+        "pnpm-lock.yaml": true,
+        "yarn.lock": true,
+        "package-lock.json": true
+    },
+
+    "files.associations": {
+        "*.css": "tailwindcss"
     }
 }

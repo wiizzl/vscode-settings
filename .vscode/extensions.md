@@ -7,6 +7,15 @@
 -   Publisher: Matt Bierner
 -   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bierner.emojisense
 
+**CodeSnap**
+
+-   Name: CodeSnap
+-   Id: adpyke.codesnap
+-   Description: Take beautiful screenshots of your code
+-   Version: 1.3.4
+-   Publisher: adpyke
+-   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap
+
 **Auto Close Tag**
 
 -   Name: Auto Close Tag
@@ -15,6 +24,24 @@
 -   Version: 0.5.15
 -   Publisher: Jun Han
 -   VS Marketplace Link: https://marketplace.visualstudio.com/items?-itemName=formulahendry.auto-close-tag
+
+**PostgresSQL managment tool**
+
+-   Name: PostgreSQL
+-   Id: ckolkman.vscode-postgres
+-   Description: PostgreSQL Management Tool
+-   Version: 1.4.3
+-   Publisher: Chris Kolkman
+-   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ckolkman.vscode-postgres
+
+**Prisma**
+
+-   Name: Prisma
+-   Id: Prisma.prisma
+-   Description: Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.
+-   Version: 5.11.0
+-   Publisher: Prisma
+-   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=Prisma.prisma
 
 **Auto Rename Tag**
 
@@ -61,7 +88,7 @@
 -   Publisher: Microsoft
 -   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
 
-1. **Gitlens**
+**Gitlens**
 
 -   Name: GitLens — Git supercharged
 -   Id: eamodio.gitlens
@@ -69,15 +96,6 @@
 -   Version: 14.7.0
 -   Publisher: GitKraken
 -   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
-
-**Headwind**
-
--   Name: Headwind
--   Id: heybourn.headwind
--   Description: An opinionated class sorter for Tailwind CSS
--   Version: 1.7.0
--   Publisher: Ryan Heybourn
--   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=heybourn.headwind
 
 **Live server**
 
@@ -132,24 +150,6 @@
 -   Version: 10.1.0
 -   Publisher: Prettier
 -   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-
-**Pylance**
-
--   Name: Pylance
--   Id: ms-python.vscode-pylance
--   Description: A performant, feature-rich language server for Python in VS Code
--   Version: 2023.12.1
--   Publisher: Microsoft
--   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
-
-**Python**
-
--   Name: Python
--   Id: ms-python.python
--   Description: IntelliSense (Pylance), Linting, Debugging (Python Debugger), code formatting, refactoring, unit tests, and more.
--   Version: 2023.22.1
--   Publisher: Microsoft
--   VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.python
 
 **Tailwind**
 
